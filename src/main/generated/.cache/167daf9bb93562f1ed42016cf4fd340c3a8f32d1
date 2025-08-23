@@ -1,0 +1,5 @@
+// 1.21.6	-999999999-01-01T00:00:00	Control Crystal/World Gen Data Provider
+b421f7c30895d0a1d0fc1103a5bdb18604ca6331 data/control-crystal/worldgen/configured_feature/crystal_ore.json
+8efe36f58518d6b3c6c575d21f9b85accaacb2e3 data/control-crystal/worldgen/configured_feature/deepslate_crystal_ore.json
+58c5886a3e7f07336b36f49ab2b32058a873e761 data/control-crystal/worldgen/placed_feature/crystal_ore.json
+f223ce7494547dad89e238fae92e07144861f43b data/control-crystal/worldgen/placed_feature/deepslate_crystal_ore.json

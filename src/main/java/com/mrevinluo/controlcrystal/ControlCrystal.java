@@ -1,8 +1,10 @@
 package com.mrevinluo.controlcrystal;
 
 import com.mrevinluo.controlcrystal.block.ModBlocks;
+import com.mrevinluo.controlcrystal.datagen.ModWorldGen;
 import com.mrevinluo.controlcrystal.item.CrystalsGroup;
 import com.mrevinluo.controlcrystal.item.ModItems;
+import com.mrevinluo.controlcrystal.world.gen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -24,6 +26,8 @@ public class ControlCrystal implements ModInitializer {
         ModItems.registerItems();
         ModBlocks.RegCrystalOre();
         CrystalsGroup.RegItemGroup();
+        ModWorldGeneration.registerWorldGenerations();
+
 		LOGGER.info("Control Crystal!!!!!");
 	}
 }

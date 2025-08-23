@@ -31,12 +31,18 @@ public class ModConfiguredFeatures {
         RuleTest stoneReplace = new TagMatchRuleTest(BlockTags.STONE_ORE_REPLACEABLES);
         RuleTest deepSlateReplace = new TagMatchRuleTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES);
 
-        List<OreFeatureConfig.Target> overWorldTargets = List.of(
-                OreFeatureConfig.createTarget(stoneReplace, ModBlocks.CRYSTAL_ORE.getDefaultState()),
+        List<OreFeatureConfig.Target> crystalOreTarget = List.of(
+                OreFeatureConfig.createTarget(stoneReplace, ModBlocks.CRYSTAL_ORE.getDefaultState())
+//                OreFeatureConfig.createTarget(deepSlateReplace,  ModBlocks.DEEPSLATE_CRYSTAL_ORE.getDefaultState())
+        );
+
+        register(featureRegisterable, CRYSTAL_ORE_KEY, Feature.ORE, new OreFeatureConfig(crystalOreTarget,8));
+
+        List<OreFeatureConfig.Target> deepslateOreTarget = List.of(
                 OreFeatureConfig.createTarget(deepSlateReplace,  ModBlocks.DEEPSLATE_CRYSTAL_ORE.getDefaultState())
         );
 
-        register(featureRegisterable, CRYSTAL_ORE_KEY, Feature.ORE, new OreFeatureConfig(overWorldTargets,8));
+        register(featureRegisterable, DEEPSLATE_CRYSTAL_ORE_KEY, Feature.ORE, new OreFeatureConfig(deepslateOreTarget,8));
     }
 
 
