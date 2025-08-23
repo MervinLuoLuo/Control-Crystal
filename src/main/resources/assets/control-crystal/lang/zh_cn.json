@@ -1,0 +1,12 @@
+{
+  "item.control-crystal.basic_crystal": "初级水晶",
+  "item.control-crystal.advanced_crystal": "进阶水晶",
+  "item.control-crystal.more_advanced_crystal": "高级水晶",
+  "item.control-crystal.top_crystal": "至尊水晶",
+  "item.control-crystal.crystal_fragment": "水晶碎片",
+  "itemGroup.control_crystals": "控制水晶",
+  "block.control-crystal.crystal_ore": "水晶矿石",
+  "item.control-crystal.crystal_ore": "水晶矿石",
+  "block.control-crystal.deepslate_crystal_ore": "深层水晶矿石",
+  "item.control-crystal.deepslate_crystal_ore": "深层水晶矿石"
+}

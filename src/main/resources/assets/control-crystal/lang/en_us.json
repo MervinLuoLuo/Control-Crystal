@@ -1,0 +1,12 @@
+{
+  "item.control-crystal.basic_crystal": "Basic Crystal",
+  "item.control-crystal.advanced_crystal": "Advanced Crystal",
+  "item.control-crystal.more_advanced_crystal": "More Advanced Crystal",
+  "item.control-crystal.top_crystal": "Top Crystal",
+  "item.control-crystal.crystal_fragment": "Crystal Fragment",
+  "itemGroup.control_crystals": "Control Crystals",
+  "block.control-crystal.crystal_ore": "Crystal Ore",
+  "item.control-crystal.crystal_ore": "Crystal Ore",
+  "block.control-crystal.deepslate_crystal_ore": "Deepslate Crystal Ore",
+  "item.control-crystal.deepslate_crystal_ore": "Deepslate Crystal Ore"
+}

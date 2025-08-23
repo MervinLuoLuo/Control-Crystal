@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "crystals",
+  "pattern": [
+    " # ",
+    "#C#",
+    " # "
+  ],
+  "key": {
+    "#": "control-crystal:crystal_fragment",
+    "C": "minecraft:diamond"
+  },
+  "result": {
+    "id": "control-crystal:top_crystal",
+    "count": 1
+  },
+  "show_notification": false
+}

@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "control-crystal:crystal_ore",
+    "control-crystal:deepslate_crystal_ore"
+  ]
+}

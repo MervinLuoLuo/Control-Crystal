@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "control-crystal",
+	"version": "${version}",
+	"name": "Control Crystal",
+	"description": "Control Crystal!!!!!!",
+	"authors": [
+		"MervinLuo"
+	],
+	"contact": {
+		"homepage": "https://github.com/MervinLuoLuo/Control-Crystal",
+		"sources": "https://github.com/MervinLuoLuo/Control-Crystal"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/control-crystal/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.mrevinluo.controlcrystal.ControlCrystal"
+		],
+		"fabric-datagen": [
+			"com.mrevinluo.controlcrystal.ControlCrystalDataGenerator"
+		],
+        "client": [
+            "com.mrevinluo.controlcrystal.ControlCrystalClient"
+        ]
+	},
+	"mixins": [
+		"control-crystal.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21.6",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
