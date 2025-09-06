@@ -1,6 +1,8 @@
 package com.mrevinluo.controlcrystal;
 
+import com.mrevinluo.controlcrystal.datagen.ModItemTagsProvider;
 import com.mrevinluo.controlcrystal.datagen.ModLootTableProvider;
+import com.mrevinluo.controlcrystal.datagen.ModRecipesProvider;
 import com.mrevinluo.controlcrystal.datagen.ModWorldGen;
 import com.mrevinluo.controlcrystal.world.ModConfiguredFeatures;
 import com.mrevinluo.controlcrystal.world.ModPlacedFeatures;
@@ -16,6 +18,9 @@ public class ControlCrystalDataGenerator implements DataGeneratorEntrypoint {
 
 //        pack.addProvider(ModLootTableProvider::new);
         pack.addProvider(ModWorldGen::new);
+//        pack.addProvider(ModItemTagsProvider::new);
+//        pack.addProvider(ModRecipesProvider::new);
+//        pack.addProvider(ModLootTableProvider::new);
 	}
 
     @Override

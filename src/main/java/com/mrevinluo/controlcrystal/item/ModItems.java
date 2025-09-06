@@ -12,10 +12,10 @@ import java.util.function.Function;
 
 public class ModItems {
     //四个水晶
-    public static final Item BASIC_CRYSTAL = register("basic_crystal", Item::new, new Item.Settings());
-    public static final Item ADVANCED_CRYSTAL = register("advanced_crystal", Item::new, new Item.Settings());
-    public static final Item MORE_ADVANCED_CRYSTAL = register("more_advanced_crystal", Item::new, new Item.Settings());
-    public static final Item TOP_CRYSTAL = register("top_crystal", Item::new, new Item.Settings());
+    public static final Item BASIC_CRYSTAL = register("basic_crystal", CrystalItem::new, new Item.Settings());
+    public static final Item ADVANCED_CRYSTAL = register("advanced_crystal", CrystalItem::new, new Item.Settings());
+    public static final Item MORE_ADVANCED_CRYSTAL = register("more_advanced_crystal", CrystalItem::new, new Item.Settings());
+    public static final Item TOP_CRYSTAL = register("top_crystal", CrystalItem::new, new Item.Settings());
 
     //水晶碎片
     public static final Item CRYSTAL_FRAGMENT = register("crystal_fragment", Item::new, new Item.Settings());
@@ -37,5 +37,6 @@ public class ModItems {
     //初始化类
 
     public static void registerItems() {
+
     }
 }
